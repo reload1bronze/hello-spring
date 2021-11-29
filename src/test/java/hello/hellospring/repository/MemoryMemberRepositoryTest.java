@@ -57,7 +57,4 @@ public class MemoryMemberRepositoryTest {
         assertThat(result.size()).isEqualTo(2);
     }
 
-    public void clearStore() {
-        store.clear();
-    }
 }
